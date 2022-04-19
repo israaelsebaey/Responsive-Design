@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/hero-bg.png');
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 600px;
+    margin: 70px auto;
+    border-radius: 10px;
+    
+   
+}
+.container .header{
+    display: flex;
+    align-items: center !important;
+    text-align: center;
+}
+.container h3{
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8861cf;
+}
+.container img{
+    width: 300px;
+    height: 300px;
+}
+.container .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.container .input-group
+{
+    width: 300px !important;
+    height: 50px !important;
+}
+.container .input-group input{
+    border-radius:20px !important;
+    background-color: transparent;
+    
+}
+.container .input-group input:focus{
+    border: 1px solid #8861cf !important;
+}
+.container .btn{
+    text-align: center;
+}
+.container button{
+    width: 275px;
+    height: 50px;
+    background-color: #8861cf;
+    border-radius:20px !important;
+    color: #fff;
+    border: 1px solid #8861cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+.container button:hover{
+    color: #fff;
+}
+.container .spinner-border{
+    color: #8861cf;
+    margin-top: 20px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* header{
+    background-color:  #8861cf;
+    height: 150px;
+    width: 100%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+   box-shadow: 5px 5px 10px #ccc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.content{
+    margin-top: 50px;
+}
+.form-check-input{
+    margin-left: 0px;
+}
+.content{
+    width: 400px;
+    margin: 60px auto;
+}
+#addon-wrapping{
+    background-color: #8861cf;
+    color: #fff;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+
+}
+.form-control{
+    height: 50px;
+    border-radius: 7px;
+}
+.input-group{
+    margin-bottom: 50px;
+}
+.btnLog{
+    /* border: 1px solid black; */
+    /*text-align: center;
+}
+.btnLog button{
+    background-color: #8861cf;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    border-radius: 7px;
+}
+.btnLog button:hover{
+    border: 1px solid #8861cf;
+    background-color: #fff;
+    color: #8861cf;
+    box-shadow: 5px 5px 10px #ccc;
+}
+.img{
+    text-align: center;
+}
+img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #8861cf;
+    box-shadow: 2px 2px 2px #ccc,-2px -2px 2px #ccc;
+    text-align: center;
+} */
